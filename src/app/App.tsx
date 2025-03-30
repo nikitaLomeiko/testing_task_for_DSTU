@@ -1,7 +1,9 @@
+import {} from './styles/index.css'
+
 function App() {
 
   return (
-    <div>
+    <div className=''>
         APP
     </div>
   )
