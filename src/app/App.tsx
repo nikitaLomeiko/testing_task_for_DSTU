@@ -1,10 +1,11 @@
+import { Routing } from './providers/routing'
 import {} from './styles/index.css'
 
 function App() {
 
   return (
-    <div className=''>
-        APP
+    <div>
+        <Routing/>
     </div>
   )
 }
