@@ -1,13 +1,13 @@
-import { Routing } from './providers/routing'
-import {} from './styles/index.css'
+import { LayoutApp } from "components/widget/layouts/layout-app";
+import { Routing } from "./providers/routing";
+import "./styles/index.css";
 
 function App() {
-
   return (
-    <div>
-        <Routing/>
-    </div>
-  )
+    <LayoutApp>
+      <Routing />
+    </LayoutApp>
+  );
 }
 
-export default App
+export default App;
