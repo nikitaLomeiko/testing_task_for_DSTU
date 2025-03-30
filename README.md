@@ -1,0 +1,1 @@
+# testing_task_for_DSTU
